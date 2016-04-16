@@ -1,0 +1,96 @@
+---
+layout: default
+title: BlueBag &gt; Our Team
+section_id: about-the-team
+
+members:
+  - image: niels_larson.jpg
+    name: Niels Larson
+    position: Founder
+    desc:
+      Niels is a Junior at Carnegie Mellon and is pursuing a B.A. in Business Administration with a minor in cello performance.
+  - image: lillian_lee.jpg
+    name: Lillian Lee
+    position: Founder
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+  - image: member-2.png
+    name: Collin McCullough
+    position: Buisness Development
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+  - image: member-2.png
+    name: Stephanie Lemineux
+    position: Buisness Development
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+  - image: rebecca_alford.jpg
+    name: Rebecca Alford
+    position: Software Engineer
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+  - image: justin_finkenaur.jpg
+    name: Justin Finkenaur
+    position: Designer
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+
+---
+<div class='full light-blue'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-users'></i>
+      <h2>Who We Are</h2>
+      <div class="spacing"></div>
+      <p class='shortline'></p>
+    </div>
+    <div class='spacing'></div>
+    <div class='spacing'></div>
+  </div>
+  <div class='row'>
+    <div class='medium-12 large-12 columns'>
+      <p>
+        <b>Our mission</b> is to feed and educate undergraduate students with a cheaper and healthier alternative to any campus meal plan. To accomplish our goal, we deliver fresh ingredients with simple, easy-to-follow recipes so students can learn to cook in their own kitchens without too much time and great hassle. We have assembled a diverse team to carry out our mission, all Carnegie Mellon students with various expertise. Read about them below!</p>
+    </div>
+  </div>
+
+  <div class='members'>
+    <div class='full whiteno-padding'>
+      <div class='row'>
+        {% for member in page.members %}
+          {% if forloop.first %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
+          {% endif %}
+          <div class='medium-2 large-2 columns'>
+            <div class='member centered-text {{active_class}}' data-target='#member-{{forloop.index}}'>
+              <img src='{{site.url}}/images/{{member.image}}'>
+              <h3>{{member.name}}</h3>
+              <p class='position'>{{member.position}}</p>
+              <p class='active-line'></p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class='full white'>
+      <div class='row'>
+        {% for member in page.members %}
+          {% if forloop.first %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
+          {% endif %}
+          <div class='member-intro {{active_class}}' id='member-{{forloop.index}}'>
+            <div class='medium-12 large- columns'>
+              <p>{{member.desc}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
