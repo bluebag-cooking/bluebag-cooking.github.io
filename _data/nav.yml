@@ -4,16 +4,6 @@
 - name: Menus
   path: menus.html
   section_id: menus
-  children: 
-    - name: Breakfast
-      path: breakfast.html
-      section_id: breakfast
-    - name: Lunch
-      path: lunch.html
-      section_id: lunch
-    - name: Dinner
-      path: dinner.html
-      section_id: dinner
 - name: Sign Up
   path: sign-up.html
   section_id: sign-up
