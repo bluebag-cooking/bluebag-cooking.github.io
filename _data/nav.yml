@@ -16,7 +16,10 @@
   children: 
     - name: Breakfast
       path: breakfast.html
+      section_id: breakfast
     - name: Lunch
       path: lunch.html
+      section_id: lunch
     - name: Dinner
       path: dinner.html
+      section_id: dinner
