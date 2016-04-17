@@ -4,4 +4,4 @@
     <div class='two spacing'></div>
     <h2>Welcome to Blue Bag</h2>
     <div class='spacing'></div>
-    <a class='button boxed'>Sign Up</a>
+    <a href="sign-up.html" class='button boxed'>Sign Up</a>
