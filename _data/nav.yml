@@ -4,15 +4,6 @@
 - name: Menus
   path: menus.html
   section_id: menus
-- name: Sign Up
-  path: sign-up.html
-  section_id: sign-up
-- name: Our Team
-  path: about-the-team.html
-  section_id: about-the-team
-- name: Contact
-  path: contact.html
-  section_id: contact
   children: 
     - name: Breakfast
       path: breakfast.html
@@ -23,3 +14,12 @@
     - name: Dinner
       path: dinner.html
       section_id: dinner
+- name: Sign Up
+  path: sign-up.html
+  section_id: sign-up
+- name: Our Team
+  path: about-the-team.html
+  section_id: about-the-team
+- name: Contact
+  path: contact.html
+  section_id: contact
