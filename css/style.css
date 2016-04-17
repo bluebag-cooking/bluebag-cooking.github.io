@@ -131,6 +131,11 @@ h1, h2, h3, h4 {
   background-size: cover;
 }
 
+.bg-6 {
+  background: url(../images/dessert-2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
 /*header */
 .top-bar .name h1 img {
   display: inline;

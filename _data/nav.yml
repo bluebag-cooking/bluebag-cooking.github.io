@@ -13,3 +13,10 @@
 - name: Contact
   path: contact.html
   section_id: contact
+  children: 
+    - name: Breakfast
+      path: breakfast.html
+    - name: Lunch
+      path: lunch.html
+    - name: Dinner
+      path: dinner.html
