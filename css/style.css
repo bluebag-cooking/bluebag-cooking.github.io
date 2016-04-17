@@ -65,8 +65,13 @@ h1, h2, h3, h4 {
   color: white;
 }
 
+.very-dark {
+  color: black;
+}
+
 .button {
   text-transform: uppercase;
+  color: black;
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
@@ -74,7 +79,7 @@ h1, h2, h3, h4 {
 }
 
 .button:hover {
-  background-color: rgba(252, 191, 49, 0.8);
+  background-color: #007DB3;
 }
 
 .button.white {

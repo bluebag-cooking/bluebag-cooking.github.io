@@ -1,16 +1,16 @@
-- title: Creative designs
-  icon: flash
+- title: Choose Your Meals
+  icon: menu
   desc:
     Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-- title: Responsive layout
-  icon: layout
-  desc:
+- title: We Deliver Ingredients
+  icon: fa fa-truck
+  desc: 
     Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-- title: Easy to customize
+- title: Prepare Simple Recipes
   icon: paper-plane
   desc:
     Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
-- title: Great support
+- title: Enjoy!
   icon: chat
   desc:
     Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.

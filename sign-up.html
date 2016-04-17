@@ -1,5 +1,75 @@
 ---
 layout: default
-title: BlueBag &gt; Menus
+title: BlueBag &gt; Sign Up
 section_id: sign-up
-___
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-10 small-centered columns'>
+      <div class='special-title centered-text'>
+        <i class='fa fa-check-circle'></i>
+        <h2>Sign Up for Blue Bag</h2>
+        <p>Start having simple recipes and fresh ingredients delivered to you today!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='full yellow'>
+  <div class='form' >
+    <div class='row light'>
+      <form id="bluebag-signup" action="https://formspree.io/rfalford12@gmail.com" method="POST">
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'>Tell us about yourself:</h3>
+        <input class='very-dark' placeholder='FIRST NAME' name = "name" type='text'>
+        <input placeholder='EMAIL' name = "_replyto" type='text'>  
+      </div>
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'> &nbsp; </h3>
+      	<input placeholder='LAST NAME' name = "name" type='text'>
+      	<input placeholder='CONTACT PHONE' type='text'>
+      </div>
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'>Choose a Username & Password:</h3>
+        <input placeholder='USERNAME' name="username" type='text'>  
+      </div>
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'> &nbsp; </h3>
+      	<input placeholder='PASSWORD' name = "name" type='text'>
+      </div>
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'>Where should we deliver to?</h3>
+        <textarea placeholder='DELIVERY ADDRESS' name="address" type='text'></textarea> 
+      </div>
+      <div class='medium-6 large-6 columns'>
+      	<h3 class='light'>When can we deliver?</h3>
+			<select name="delivery-times">
+				<option value="5:00-6:00pm">5:00-6:00pm</option>
+				<option value="6:00-7:00pm">6:00-7:00pm</option>
+				<option value="7:00-8:00pm">7:00-8:00pm</option>
+				<option value="8:00-9:00pm">8:00-9:00pm</option>
+			</select>
+      	<h3 class='light'>Beta Test Only: Select Your Meal</h3>
+			<select name="meal-choices">
+				<option value="volvo">Breakfast: Oatmeal Fruit Bowl</option>
+				<option value="saab">Breakfast: Egg in a cup</option>
+				<option value="fiat">Breakfast: Egg with ham, cheese, and spinach</option>
+				<option value="audi">Lunch: Shrimp Salad with Tomatoes </option>
+				<option value="audi">Lunch: Grilled Cheese with Ham and Jam </option>
+				<option value="audi">Lunch: Fancy PB&J </option>
+				<option value="audi">Dinner: Beef Mac & Cheese with Vegetables </option>
+				<option value="audi">Dinner: Sphagetti with Meatballs </option>
+				<option value="audi">Dinner: Miso Salmon </option>
+				<option value="audi">Dinner: Coconut Chicken Curry </option>
+				<option value="audi">Dinner: Sphagetti Carbonara </option>
+				<option value="audi">Dinner: Beef Lo Mein </option>
+			</select>  
+      </div>
+      <div class='medium-12 large-12 columns'>
+      	<input class='button white' type='submit' value="Send">
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
