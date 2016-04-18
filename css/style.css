@@ -30,7 +30,7 @@ h1, h2, h3, h4 {
 }
 
 .yellow {
-  background: #007DB3;
+  background: #437AAC;
 }
 
 .dark-blue {
@@ -75,11 +75,11 @@ h1, h2, h3, h4 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #007DB3;
+  background: #437AAC;
 }
 
 .button:hover {
-  background-color: #007DB3;
+  background-color: #437AAC;
 }
 
 .button.white {
@@ -95,7 +95,7 @@ h1, h2, h3, h4 {
   color: white;
 }
 .button.boxed:hover {
-  background: #007DB3;
+  background: #437AAC;
 }
 
 .drop-letters {
@@ -158,7 +158,7 @@ h1, h2, h3, h4 {
 /*special title */
 .special-title i {
   font-size: 50px;
-  color: #007DB3;
+  color: #437AAC;
   margin-bottom: 15px;
   display: block;
 }
@@ -177,7 +177,7 @@ h1, h2, h3, h4 {
   width: 100px;
   height: 5px;
   margin: 0 auto;
-  border-bottom: 1px solid #007DB3;
+  border-bottom: 1px solid #437AAC;
 }
 
 /*icon-text */
@@ -197,7 +197,7 @@ h1, h2, h3, h4 {
   float: left;
 }
 .icon-text i.yellow {
-  background: #007DB3;
+  background: #437AAC;
 }
 .icon-text h3, .icon-text p {
   margin-left: 60px;
@@ -205,8 +205,8 @@ h1, h2, h3, h4 {
 
 .icon-text-boxed i {
   font-size: 88px;
-  color: #007DB3;
-  border: 1px solid #007DB3;
+  color: #437AAC;
+  border: 1px solid #437AAC;
   padding: 35px 0;
   display: block;
   width: 88%;
@@ -218,7 +218,7 @@ h1, h2, h3, h4 {
 }
 
 .icon-text-boxed:hover i {
-  background: #007DB3;
+  background: #437AAC;
   color: white;
 }
 
@@ -237,7 +237,7 @@ h1, h2, h3, h4 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: #007DB3;
+  background: #437AAC;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -249,7 +249,7 @@ h1, h2, h3, h4 {
 
 .icon-text-circle:hover i {
   background: none;
-  color: #007DB3;
+  color: #437AAC;
 }
 
 /*call-to-action */
@@ -291,7 +291,7 @@ h1, h2, h3, h4 {
 }
 .bars p.highlighted {
   width: 0;
-  background: #007DB3;
+  background: #437AAC;
   height: 14px;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4 {
 
 .member.active p.active-line {
   height: 4px;
-  background: #007DB3;
+  background: #437AAC;
   position: relative;
   margin: 0;
 }
@@ -349,7 +349,7 @@ h1, h2, h3, h4 {
 }
 .socials i.yellow {
   color: white;
-  background: #007DB3;
+  background: #437AAC;
 }
 .socials i.yellow:hover {
   background-color: rgba(252, 191, 49, 0.8);
@@ -520,7 +520,7 @@ ul.gallery li a .overlay {
   transition: all 0.2s linear;
 }
 ul.gallery li a h3 {
-  color: #007DB3;
+  color: #437AAC;
   margin-bottom: 10px;
 }
 ul.gallery li a p {
@@ -588,10 +588,10 @@ ul#filter li a {
   color: #999999;
 }
 ul#filter li.current {
-  border: 1px solid #007DB3;
+  border: 1px solid #437AAC;
 }
 ul#filter li.current a {
-  color: #007DB3;
+  color: #437AAC;
 }
 
 ul.info {
@@ -601,7 +601,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #007DB3;
+  border: 1px solid #437AAC;
   padding: 5px;
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -609,7 +609,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #007DB3;
+  background: #437AAC;
   color: white;
 }
 
@@ -631,7 +631,7 @@ ul.info i:hover {
   color: #333333;
 }
 .post .info p a:hover {
-  color: #007DB3;
+  color: #437AAC;
 }
 .post .other-info {
   list-style: none;
@@ -647,7 +647,7 @@ ul.info i:hover {
   color: #999999;
 }
 .post .other-info li a:hover {
-  color: #007DB3;
+  color: #437AAC;
 }
 .post .content .orbit-container {
   margin-bottom: 20px;
@@ -686,22 +686,22 @@ ul.info i:hover {
   color: #333333;
 }
 .pages ul a:hover {
-  color: #007DB3;
+  color: #437AAC;
 }
 
 .timestamp {
   width: 80px;
-  border: 1px solid #007DB3;
+  border: 1px solid #437AAC;
 }
 .timestamp .month {
-  background: #007DB3;
+  background: #437AAC;
   color: white;
-  border-bottom: 1px solid #007DB3;
+  border-bottom: 1px solid #437AAC;
   display: block;
   padding: 5px 0;
 }
 .timestamp .date {
-  color: #007DB3;
+  color: #437AAC;
   display: block;
   padding: 20px 0;
   font-size: 36px;
