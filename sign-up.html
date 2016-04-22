@@ -32,7 +32,7 @@ section_id: sign-up
       </div>
       <div class='medium-6 large-6 columns'>
       	<h3 class='light'>Choose a Username & Password:</h3>
-        <input placeholder='USERNAME' name="username" type='text'>  
+        <input placeholder='USERNAME' name="username" type='text'>
       </div>
       <div class='medium-6 large-6 columns'>
       	<h3 class='light'> &nbsp; </h3>
@@ -44,27 +44,41 @@ section_id: sign-up
       </div>
       <div class='medium-6 large-6 columns'>
       	<h3 class='light'>When can we deliver?</h3>
-			<select name="delivery-times">
-				<option value="5:00-6:00pm">5:00-6:00pm</option>
-				<option value="6:00-7:00pm">6:00-7:00pm</option>
-				<option value="7:00-8:00pm">7:00-8:00pm</option>
-				<option value="8:00-9:00pm">8:00-9:00pm</option>
-			</select>
-      	<h3 class='light'>Beta Test Only: Select Your Meal</h3>
-			<select name="meal-choices">
-				<option value="Breakfast: Oatmeal Fruit Bowl">Breakfast: Oatmeal Fruit Bowl</option>
-				<option value="Breakfast: Egg in a cup">Breakfast: Egg in a cup</option>
-				<option value="Breakfast: Egg with ham, cheese, and spinach">Breakfast: Egg with ham, cheese, and spinach</option>
-				<option value="Lunch: Shrimp Salad with Tomatoes">Lunch: Shrimp Salad with Tomatoes</option>
-				<option value="Lunch: Grilled Cheese with Ham and Jam">Lunch: Grilled Cheese with Ham and Jam </option>
-				<option value="Lunch: Fancy PB&J">Lunch: Fancy PB&J</option>
-				<option value="Dinner: Beef Mac & Cheese with Vegetables">Dinner: Beef Mac & Cheese with Vegetables</option>
-				<option value="Dinner: Sphagetti with Meatballs">Dinner: Sphagetti with Meatballs</option>
-				<option value="Dinner: Miso Salmon">Dinner: Miso Salmon</option>
-				<option value="Dinner: Coconut Chicken Curry">Dinner: Coconut Chicken Curry</option>
-				<option value="Dinner: Sphagetti Carbonara">Dinner: Sphagetti Carbonara</option>
-				<option value="Dinner: Beef Lo Mein">Dinner: Beef Lo Mein</option>
-			</select>  
+  			<select name="delivery-times">
+  				<option value="5:00-6:00pm">7:00-8:00pm</option>
+  				<option value="6:00-7:00pm">8:00-9:00pm</option>
+  				<option value="7:00-8:00pm">9:00-10:00pm</option>
+  				<option value="8:00-9:00pm">10:00-11:00pm</option>
+  			</select>
+        <h3 class='light'>Can we leave it when you are not home?</h3>
+        <select name="leave-response">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select> 
+      </div>
+      <div class='medium-6 large-6 columns'>
+      <h3 class='light'>Beta Test Only: Select Your Meal</h3>
+      <h4 class='light'>Breakfast</h4>
+      <select name="breakfast-choices">
+        <option value="Breakfast: Oatmeal Fruit Bowl">Breakfast: Oatmeal Fruit Bowl</option>
+        <option value="Breakfast: Egg in a cup">Breakfast: Egg in a cup</option>
+        <option value="Breakfast: Egg with ham, cheese, and spinach">Breakfast: Egg with ham, cheese, and spinach</option>
+      </select>
+      <h4 class='light'>Lunch</h4>
+      <select name="lunch-choices">
+        <option value="Lunch: Shrimp Salad with Tomatoes">Lunch: Shrimp Salad with Tomatoes</option>
+        <option value="Lunch: Grilled Cheese with Ham and Jam">Lunch: Grilled Cheese with Ham and Jam </option>
+        <option value="Lunch: Fancy PB&J">Lunch: Fancy PB&J</option>
+      </select>
+      <h4 class='light'>Dinner</h4>
+      <select name='dinner-choices'>
+        <option value="Dinner: Beef Mac & Cheese with Vegetables">Dinner: Beef Mac & Cheese with Vegetables</option>
+        <option value="Dinner: Sphagetti with Meatballs">Dinner: Sphagetti with Meatballs</option>
+        <option value="Dinner: Miso Salmon">Dinner: Miso Salmon</option>
+        <option value="Dinner: Coconut Chicken Curry">Dinner: Coconut Chicken Curry</option>
+        <option value="Dinner: Sphagetti Carbonara">Dinner: Sphagetti Carbonara</option>
+        <option value="Dinner: Beef Lo Mein">Dinner: Beef Lo Mein</option>
+      </select>
       </div>
       <div class='medium-12 large-12 columns'>
       	<input class='button white' type='submit' value="Send">
