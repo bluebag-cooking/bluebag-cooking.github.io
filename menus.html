@@ -6,25 +6,61 @@ section_id: menus
 meals:
   - image: breakfast_main.jpg
     name: Breakfast
-    desc:
-      <h4>Egg in a cup <br>
-      Eggs with ham, cheese and spinach <br>
-      Oatmeal fruit bowl <br></h4>
+    items:
+      - name: Egg in a Cup
+        cooktime: 5 min
+        picture: eggs_in_a_cup.jpg
+        recipe: Crack the eggs and pour contents into a microwave safe mug. Dice ham and spinach to desired size. Combine all ingredients, stir and microwave for 1 min 30 seconds (depending on microwave power) <div class='spacing'></div>
+      - name: Eggs with Ham, Cheese, and Spinach
+        cooktime: 20 min
+        picture: eggs_with_ham_and_spinach.jpg
+        recipe: Heat 1 tablespoon of oil in a medium saucepan. Crach two eggs and beat the mixture. Slice the ham and spinace to a desired size. Pour eggs into the pan. Once the bottom of the eggs are cooked, pour in the ham and spinach. Flip the mixture and let cook until solid and dark yellow-golden brown.<br>
+      - name: Oatmeal Fruit Bowl
+        cooktime: 15 min
+        picture: oatmeal_with_fruit.jpg
+        recipe: Coming Soon!
   - image: lunch_main.jpg
     name: Lunch
-    desc:
-      <h4>Shrimp Salad with tomatoes<br>
-      Grilled Cheese with Ham and Jam<br>
-      Fancy PB&J<br></h4>
+    items:
+      - name: Shrimp Salad with tomatoes
+        cooktime: 10 min
+        picture: shrimp_salad.jpg
+        recipe: To prepare the shrimp, pinch of the tails and dry with a paper tol. Heat a saucepan on low, add 1 tablespoon of oil, and keep on a medium heat. Place shrimp in the pan to cook - flip when one side turns pink. While shrimp is cooking, cut off the end of a romain heart and wash the leaves. Tear or cut lettuce to your desired. Wash and cut grape tomatoes in half. Add cooked shrimp with lettuce and tomatoes in a bowl with olive oil and white vinegar. 
+      - name: Grilled Cheese with Ham & Jam
+        cooktime: 20 min
+        picture: grilled_cheese.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
+      - name: Fancy PB&J
+        cooktime: 10 min
+        picture: pbj.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
   - image: dinner_main.jpg
     name: Dinner
-    desc:
-      <h4>Beef Mac & Cheese with Vegetables<br>
-      Sphagetti with Meatballs<br>
-      Miso Salmon<br>
-      Coconut chicken curry<br>
-      Sphagetti Carbonara<br>
-      Beef Lo Mein<br></h4>
+    items:
+      - name: Beef Mac & Cheese with Vegetables
+        cooktime: 10 min
+        picture: beef_mac_and_cheese.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
+      - name: Sphagetti with Meatballs
+        cooktime: 20 min
+        picture: sphagetti_and_meatballs.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
+      - name: Miso Salmon
+        cooktime: 10 min
+        picture: miso_salmon.png
+        recipe: Preheat the broiler on high. Boil 1 cup of water, and once boiling, put rice in and cover for 18 minutes. Combine the water, miso paste, sugar, and soy sauce. Place the salmon on an oven safe dish, and cover with miso sauce. Broil the salmon for 10 minutes. Mix the kale, blueberries, carrots, and walnuts in a mixing boil. Check to see if rice has expanded, and turn off heat. Place salad on bottom of plate. Add the rice ontop with the salmon. 
+      - name: Coconut chicken curry
+        cooktime: 20 min
+        picture: coconut_chicken_curry.jpg
+        recipe: Boil one cup of water, place rice in boiling water. Cover and cool for 18 minutes until rice expands. Dice onion, quarter potatoes, and slice carrots. Heat pan with oil, and cook onion until fragerant. Add potatoes, carrots, and chicken. Cook until chicken is cooked through. Add water until all ingredients are covered. Wait till the water boils, turn the heat down to medium heat, cover and cook for 15-20 minutes. Add curry block, cook and stir until your liking for consistency. Add coconut milk and peas. 
+      - name: Sphagetti Carbonara
+        cooktime: 10 min
+        picture: sphagetti_carbonara.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
+      - name: Beef Lo Mein
+        cooktime: 10 min
+        picture: beef_lo_mein.jpg
+        recipe: Coming Soon! <div class="two spacing"></div>
 ---
 
 <div class='full'>
@@ -68,9 +104,16 @@ meals:
 					{% assign active_class = "" %}
 				{% endif %}
 				<div class='member-intro {{active_class}}' id='meal-{{forloop.index}}'>
-				<div class='medium-12 large- columns'>
-		 			 <p>{{meal.desc}}</p>
+				{% for item in meal.items %}
+				<div class="medium-2 large-2 columns">
+					<img src='{{site.url}}/images/{{item.picture}}' height=150 width=150>
 				</div>
+				<div class='medium-10 large-10 columns'>
+		 			 <h4> {{ item.name }} </h4>
+		 			 <p> {{ item.cooktime }} </p>
+		 			 <p> {{ item.recipe }} </p>
+				</div>
+				{% endfor %}
 				</div>
 			{% endfor %}
 		</div>
