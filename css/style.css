@@ -85,6 +85,17 @@ h1, h2, h3, h4 {
 .button.white {
   background: white;
 }
+
+.button.blue {
+  background: #437AAC;
+  color: white;
+}
+
+.button.blue:hover {
+  background-color: #437AAC;
+  color: white;
+}
+
 .button.white:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
